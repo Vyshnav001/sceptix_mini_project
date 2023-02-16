@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding:0;
+    
+}
+ .background{
+    height:100%;
+    width:100%;
+
+}
+p{
+    text-align: center;
+    color:white;
+    font-size: x-large;
+    font-style: oblique;
+    font-display: center;
+    font-weight: 500;
+
+
+}
+h1{
+    color:black;
+    font-size: xx-large;
+    font-style: initial;
+    text-align:center ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
