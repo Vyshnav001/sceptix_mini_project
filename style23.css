@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap')
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: "Poppins",sans serif;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+.sidebar{
+    position: fixed;
+    height: 100%;
+    width: 240px;
+    background:#11101d ;
+    padding: 6px 14px;
+
+}
+.sidebar .logo_content .logo{
+    color:#fff;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+.logo_content .logo i{
+    font-size: 20px;
+    margin-right: 5px;
+
+}
+.logo_content .logo .logo_name{
+    font-size: 20px;
+    font-weight: 400;
+}
+.sidebar #btn{
+    position: absolute;
+    color:#fff;
+    left: 50%;
+    top:6px;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transform: translate(-50%);
+}
+
+
+ .sidebar ul{
+    margin-top:20px;
+
+ }
+ .sidebar ul li{
+    position:relative;
+    height:50px;
+    width:100%;
+    margin:0 5px;
+    list-style: none;
+    line-height:50px;
+    
+ }
+ .sidebar ul li input{
+    position:absolute;
+    height:100%;
+    width:100%;
+    left: 0;
+    top: 0;
+    border-radius:12px;
+    outline: none;
+    border: none;
+    background: #1d1b31;
+    padding-left:50 px;
+    font-size: 18px;
+    color:#ff;
+ }
+  .sidebar ul li a{
+    color:#fff;
+    display: flex;
+    align-items: center;
+    text decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 12px;
+  }
+   .sidebar ul li a:hover{
+    color:#11101d;
+    background:#fff;
+
+   }
+   .sidebar ul li i{
+    height:50px;
+    min-width:50px;
+    text-align: center;
+   }
+   .background{
+    background-color: palevioletred;
+   }
+   h1{
+    color:black;
+    font-size: xx-large;
+    font-style: initial;
+    text-align:center ;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.p{
+    
+    text-align: center;
+    color:white;
+    font-size: x-large;
+    font-style: oblique;
+    font-display: center;
+    font-weight: 500;
+}
+
+
+
