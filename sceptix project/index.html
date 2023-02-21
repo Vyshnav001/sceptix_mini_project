@@ -1,4 +1,71 @@
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title> Responsive Sidebar Menu</title>
+        <link rel="stylesheet" href="style23.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div class="sidebar">
+            <div class="logo_content">
+                <div class="logo">
+                    <i class='bx bxl-tux'></i>
+                    <a href="./index.html">
+                    <div  class="logo_name">FOSS</div>
+                </a>
+                </div>
+                <i class='bx bx-menu-alt-left' id="btn"></i>
+            </div>
+            <ul class="nav_list">
+
+                <li>
+                    <a href="./index3.html">
+                        <i class='bx bx-been-here'></i>
+                        <span class="limks_name">BENEFITS</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index2.html">
+                        <i class='bx bxs-hourglass-top'></i>
+                        <span class="limks_name">HISTORY</span>
+                    </a>
+                </li>
+                    <li>
+                    <a href="./index6.html">
+                        <i class='bx bxs-skull'></i>
+                        <span class="limks_name">ALTERNATIVES</span>
+                    
+
+                    </a>
+                    
+                </li>
+                <li>
+                <a href="./index5.html">
+                    <i class='bx bxs-chevrons-right'></i>
+                    <span class="limks_name">LINKS</span>
+                </li>
+            </ul>
+        </div> 
+        <div class="HOME PAGE">
+            <div class="text">WHAT IS FOSS?</div>
+        </div>
+    </body>
+    <script>
+        window.onload = function() {
+  // Display the loading animation
+  document.querySelector(".loading").style.display = "block";
+
+  // Hide the loading animation after a delay of 3 seconds
+  setTimeout(function() {
+    document.querySelector(".loading").style.display = "none";
+  }, 3000);
+};
+
+    </script>
+</html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>SCEPTIX MINI PROJECT</title>
@@ -16,7 +83,7 @@
         <br>
         
 
-        
+        <div class="foss">
         
         <h1><strong>WHAT IS FOSS?</strong></h1>
         
@@ -33,5 +100,6 @@
 
             Although there is almost a complete overlap between free-software licenses and open-source-software licenses, there is a strong philosophical disagreement between the advocates of these two positions. The terminology of FOSS or "Free and Open-source software" was created to be a neutral on these philosophical disagreements between the FSF and OSI and have a single unified term that could refer to both concepts.
         </p>
+      </div>
     </body> 
 </html>
